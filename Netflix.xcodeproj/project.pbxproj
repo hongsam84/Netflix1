@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3FD79DB22ED6C3E100A87A09 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3FD79DB12ED6C3D500A87A09 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3FD79D8D2ED6C23000A87A09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3FD79D7F2ED6C22E00A87A09 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD79D8C2ED6C23000A87A09 /* NetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD79D962ED6C23000A87A09 /* NetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD79DB12ED6C3D500A87A09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		3FD79D762ED6C22E00A87A09 = {
 			isa = PBXGroup;
 			children = (
+				3FD79DB12ED6C3D500A87A09 /* .gitignore */,
 				3FD79D812ED6C22E00A87A09 /* Netflix */,
 				3FD79D8F2ED6C23000A87A09 /* NetflixTests */,
 				3FD79D992ED6C23000A87A09 /* NetflixUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD79DB22ED6C3E100A87A09 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
